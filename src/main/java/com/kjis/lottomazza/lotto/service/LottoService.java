@@ -32,19 +32,34 @@ public class LottoService {
 	@Autowired
 	private WebClient webClient;
 
+	/**
+	 * 로또 당첨정보 총 개수 조회
+	 * @return
+	 */
 	public long getLottoTotalCount() {
 		return lottoRepository.count();
 	}
 
+	/**
+	 * 추첨회차로 로또 당첨정보 조회
+	 * @param drwNo
+	 * @return
+	 */
 	public LottoGameResult findLottoByDrwNo(int drwNo) {
 		return lottoRepository.findLottoGameResultByDrwNo(drwNo);
 	}
 
+	/**
+	 * 로또 당첨정보 저장
+	 * @param drwNo
+	 * @return
+	 */
 	@Transactional(timeout = 10)
 	public LottoGameResult saveLotto(int drwNo) {
 		String URL_PREFIX = dotenv.get("LOTTO_API_GAME_RESULT_PATH_AND_PARAM");
 		String url = URL_PREFIX + drwNo;
 
+		// 로또 API reqeust
 		String response = webClient
 				.get()
 				.uri(url)
@@ -55,6 +70,7 @@ public class LottoService {
 
 		ObjectMapper objectMapper = new ObjectMapper();
 		try {
+			// 로또 API response 데이터 파싱
 			LottoGameResult lotto = objectMapper.readValue(response, LottoGameResult.class);
 
 			if ("success".equals(lotto.getReturnValue())) {

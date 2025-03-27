@@ -23,7 +23,7 @@ public class LottoGameResult {
     @Id
     private String id;                  // MongoDB ObjectId
     private String drwNoDate;           // 추첨일자
-    private int drwNo;                  // 회차
+    private int drwNo;                  // 추첨회차
     private int drwtNo1;                // 첫 번째 당첨번호
     private int drwtNo2;                // 두 번째 당첨번호
     private int drwtNo3;                // 세 번째 당첨번호

@@ -28,11 +28,14 @@ public class LottoController {
 	 * @param drwNo
 	 * @return
 	 */
-	@GetMapping("getLotto")
-	public LottoGameResult getLotto(@RequestParam int drwNo) {
+	@GetMapping("getLottoGameResult")
+	public LottoGameResult getLottoGameResult(@RequestParam int drwNo) {
 		System.out.println("데이터 총 개수 : " + lottoService.getLottoTotalCount());
 
 		LottoGameResult lotto = lottoService.findLottoByDrwNo(drwNo);
+
+		// 조회 데이터가 없다면 로또 API를 통해 데이터 저장
+		// TODO: 스케줄러로 관리
 		if (lotto == null) {
 			lotto = lottoService.saveLotto(drwNo);
 		}
