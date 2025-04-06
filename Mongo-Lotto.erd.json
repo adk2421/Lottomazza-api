@@ -1,0 +1,2170 @@
+{
+  "$schema": "https://raw.githubusercontent.com/dineug/erd-editor/main/json-schema/schema.json",
+  "version": "3.0.0",
+  "settings": {
+    "width": 2000,
+    "height": 2000,
+    "scrollTop": 0,
+    "scrollLeft": 0,
+    "zoomLevel": 1,
+    "show": 423,
+    "database": 16,
+    "databaseName": "",
+    "canvasType": "ERD",
+    "language": 1,
+    "tableNameCase": 4,
+    "columnNameCase": 2,
+    "bracketType": 1,
+    "relationshipDataTypeSync": true,
+    "relationshipOptimization": false,
+    "columnOrder": [
+      1,
+      2,
+      4,
+      8,
+      16,
+      32,
+      64
+    ],
+    "maxWidthComment": -1,
+    "ignoreSaveSettings": 0
+  },
+  "doc": {
+    "tableIds": [
+      "wxhTLlX3xvCSk8-_75iV0",
+      "u-WorZTsXiuNmR1vmjgr2"
+    ],
+    "relationshipIds": [],
+    "indexIds": [],
+    "memoIds": []
+  },
+  "collections": {
+    "tableEntities": {
+      "wxhTLlX3xvCSk8-_75iV0": {
+        "id": "wxhTLlX3xvCSk8-_75iV0",
+        "name": "lotto_game_result",
+        "comment": "로또 추첨결과",
+        "columnIds": [
+          "FHvbFYPVA2bVGH_6dm2Am",
+          "RZ-sUDetm6Z7cV27v2PXN",
+          "lvyHn30N09PE-pQhqpUUq",
+          "QESuHwnaClrkvYOAwXmVM",
+          "EV6WoFlUEC6-vv6zjhZ29",
+          "Lw-mttxmLpXNGwPjgbSJf",
+          "9i8ALViS9UbP2NXyeBfBb",
+          "k5jCC1jcYSYUTXJCDC9er",
+          "bR2WbZlTjhyFn_W5mNVyn",
+          "3W_PnipVWmiOB5_jPWy1v",
+          "o8hFfrAanoM5-61lQXfct",
+          "99GukIv2a8P51duev8-PQ",
+          "wNX0J-RZ6nxG7VqhD7n7Q",
+          "Hmu9MXA0yX5NNvLJ2jpEP",
+          "r_XTqelN2QlHymuWRTtoA"
+        ],
+        "seqColumnIds": [
+          "FHvbFYPVA2bVGH_6dm2Am",
+          "RZ-sUDetm6Z7cV27v2PXN",
+          "lvyHn30N09PE-pQhqpUUq",
+          "QESuHwnaClrkvYOAwXmVM",
+          "EV6WoFlUEC6-vv6zjhZ29",
+          "Lw-mttxmLpXNGwPjgbSJf",
+          "9i8ALViS9UbP2NXyeBfBb",
+          "k5jCC1jcYSYUTXJCDC9er",
+          "bR2WbZlTjhyFn_W5mNVyn",
+          "3W_PnipVWmiOB5_jPWy1v",
+          "o8hFfrAanoM5-61lQXfct",
+          "99GukIv2a8P51duev8-PQ",
+          "wNX0J-RZ6nxG7VqhD7n7Q",
+          "Hmu9MXA0yX5NNvLJ2jpEP",
+          "r_XTqelN2QlHymuWRTtoA",
+          "hYdNuI7Rl6-C8ixlIhJ9i"
+        ],
+        "ui": {
+          "x": 55.5659,
+          "y": 47.9868,
+          "zIndex": 2,
+          "widthName": 96,
+          "widthComment": 77,
+          "color": "#FF9800"
+        },
+        "meta": {
+          "updateAt": 1743910062715,
+          "createAt": 1743042807676
+        }
+      },
+      "u-WorZTsXiuNmR1vmjgr2": {
+        "id": "u-WorZTsXiuNmR1vmjgr2",
+        "name": "lotto_stat",
+        "comment": "로또 통계",
+        "columnIds": [
+          "7pr5TV6g6F2p3gVbBDy-X",
+          "H8Ftg0YspiFPQP0bU0_1X",
+          "BsUmYFzNlHKJ5ofsXtDO0",
+          "QVWq2TaoxqUaySGy58ApG"
+        ],
+        "seqColumnIds": [
+          "7pr5TV6g6F2p3gVbBDy-X",
+          "H8Ftg0YspiFPQP0bU0_1X",
+          "BsUmYFzNlHKJ5ofsXtDO0",
+          "bEzX9SILRiuegexFLft33",
+          "P9u_N4OYX4A_JSTSnA8H2",
+          "LJ9Gh47Dqy3VJibhVGDCz",
+          "5I2_6UNywcENT8Nbf7EQt",
+          "4lbH9OaaSyMETms7tlB5o",
+          "z8U4khJHmUGyeJugRwOSF",
+          "2mIDO0XLLYMX3uWkxWNg0",
+          "31Y14G47QOuQ5_-7Q63sH",
+          "XlQdK0RNQ4dFk-Znm1YOt",
+          "h3fFKeBre-p8nNbPfTOtd",
+          "u6SaMz_hH2SnABm2RnAQc",
+          "Ev5S9GxcldbGKA7uAO3ZP",
+          "5dyCGZJz94zzt8GDuXAqE",
+          "v_Rrd_MO8qz_qkaJkyXVu",
+          "WhBim-ma0yKw_bBtH2NbZ",
+          "2BRinLL87kJKjsPUn8INA",
+          "lkg0ARKTOnnOBcTXr48ud",
+          "NlorJR3u4Bo47FipzZ3xV",
+          "Dmsh5sRqFYhyqiygEAs-V",
+          "3YarxmuIEiAqE8p46tkb0",
+          "dXeyftR_LAIWstumXhIet",
+          "qNJQosWZ5G56YVRF9woAp",
+          "ClTv51uOFE3Yf9JdqpQ20",
+          "GCPHRHTSJfcyJ6yrOcHWc",
+          "y3ZUP1d9sAwcAPuxX3VxK",
+          "lGw_t8dcS2cD_EJq1NQFg",
+          "ltBqB69Tl1qi9FkyZ8Ke4",
+          "KOm8QDwOqy8fvWu2sKxmM",
+          "A4tmmscWjzrw4yXqdptLo",
+          "J7gSIqrx40XhoDa4gUb5f",
+          "n1xamPf1zNHbTCcLt6CvL",
+          "e8_2xpAFIFm1nEWck3U-v",
+          "ZkaAsgrvL-MmYmDcGl54q",
+          "AEWikay82tGBCTHlvvzsJ",
+          "pBQvkkSaLw7V3jebqPyd5",
+          "ebsninp1WZL912507jhr1",
+          "6BMP844CTnbx8xmdlgr9H",
+          "U8NUieOmH91pSJG9S89GX",
+          "oXFLyuNtrzS8wgBAcSjNx",
+          "HbBwhAWiEKnOeUqsOlqQn",
+          "Zi1AWpSYY9XWJVqdXVk6b",
+          "wJJuqigjzHEtEYszfJHLe",
+          "QFojO1EJM193eKFw5J-ur",
+          "QVWq2TaoxqUaySGy58ApG",
+          "OitI7ahdqwjhb8PPwcdXZ"
+        ],
+        "ui": {
+          "x": 466.3385,
+          "y": 46.6842,
+          "zIndex": 21,
+          "widthName": 60,
+          "widthComment": 60,
+          "color": "#8BC34A"
+        },
+        "meta": {
+          "updateAt": 1743910317225,
+          "createAt": 1743050151361
+        }
+      }
+    },
+    "tableColumnEntities": {
+      "FHvbFYPVA2bVGH_6dm2Am": {
+        "id": "FHvbFYPVA2bVGH_6dm2Am",
+        "tableId": "wxhTLlX3xvCSk8-_75iV0",
+        "name": "id",
+        "comment": "오브젝트 아이디",
+        "dataType": "String",
+        "default": "",
+        "options": 2,
+        "ui": {
+          "keys": 1,
+          "widthName": 60,
+          "widthComment": 89,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1743049426231,
+          "createAt": 1743049209975
+        }
+      },
+      "RZ-sUDetm6Z7cV27v2PXN": {
+        "id": "RZ-sUDetm6Z7cV27v2PXN",
+        "tableId": "wxhTLlX3xvCSk8-_75iV0",
+        "name": "drwNoDate",
+        "comment": "추첨일자",
+        "dataType": "String",
+        "default": "",
+        "options": 0,
+        "ui": {
+          "keys": 0,
+          "widthName": 63,
+          "widthComment": 60,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1743049567614,
+          "createAt": 1743049427716
+        }
+      },
+      "lvyHn30N09PE-pQhqpUUq": {
+        "id": "lvyHn30N09PE-pQhqpUUq",
+        "tableId": "wxhTLlX3xvCSk8-_75iV0",
+        "name": "drwNo",
+        "comment": "추첨회차",
+        "dataType": "int",
+        "default": "",
+        "options": 0,
+        "ui": {
+          "keys": 0,
+          "widthName": 60,
+          "widthComment": 60,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1743910256616,
+          "createAt": 1743049428118
+        }
+      },
+      "QESuHwnaClrkvYOAwXmVM": {
+        "id": "QESuHwnaClrkvYOAwXmVM",
+        "tableId": "wxhTLlX3xvCSk8-_75iV0",
+        "name": "drwtNo1",
+        "comment": "첫 번째 당첨번호",
+        "dataType": "int",
+        "default": "",
+        "options": 0,
+        "ui": {
+          "keys": 0,
+          "widthName": 60,
+          "widthComment": 93,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1743910266302,
+          "createAt": 1743049430197
+        }
+      },
+      "EV6WoFlUEC6-vv6zjhZ29": {
+        "id": "EV6WoFlUEC6-vv6zjhZ29",
+        "tableId": "wxhTLlX3xvCSk8-_75iV0",
+        "name": "drwtNo2",
+        "comment": "두 번째 당첨번호",
+        "dataType": "int",
+        "default": "",
+        "options": 0,
+        "ui": {
+          "keys": 0,
+          "widthName": 60,
+          "widthComment": 93,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1743910271769,
+          "createAt": 1743049430372
+        }
+      },
+      "Lw-mttxmLpXNGwPjgbSJf": {
+        "id": "Lw-mttxmLpXNGwPjgbSJf",
+        "tableId": "wxhTLlX3xvCSk8-_75iV0",
+        "name": "drwtNo3",
+        "comment": "세 번째 당첨번호",
+        "dataType": "int",
+        "default": "",
+        "options": 0,
+        "ui": {
+          "keys": 0,
+          "widthName": 60,
+          "widthComment": 93,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1743910275771,
+          "createAt": 1743049430577
+        }
+      },
+      "9i8ALViS9UbP2NXyeBfBb": {
+        "id": "9i8ALViS9UbP2NXyeBfBb",
+        "tableId": "wxhTLlX3xvCSk8-_75iV0",
+        "name": "drwtNo4",
+        "comment": "네 번째 당첨번호",
+        "dataType": "int",
+        "default": "",
+        "options": 0,
+        "ui": {
+          "keys": 0,
+          "widthName": 60,
+          "widthComment": 93,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1743910278099,
+          "createAt": 1743049431176
+        }
+      },
+      "k5jCC1jcYSYUTXJCDC9er": {
+        "id": "k5jCC1jcYSYUTXJCDC9er",
+        "tableId": "wxhTLlX3xvCSk8-_75iV0",
+        "name": "drwtNo5",
+        "comment": "다섯 번째 당첨번호",
+        "dataType": "int",
+        "default": "",
+        "options": 0,
+        "ui": {
+          "keys": 0,
+          "widthName": 60,
+          "widthComment": 105,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1743910280063,
+          "createAt": 1743049431348
+        }
+      },
+      "bR2WbZlTjhyFn_W5mNVyn": {
+        "id": "bR2WbZlTjhyFn_W5mNVyn",
+        "tableId": "wxhTLlX3xvCSk8-_75iV0",
+        "name": "drwtNo6",
+        "comment": "여섯 번째 당첨번호",
+        "dataType": "int",
+        "default": "",
+        "options": 0,
+        "ui": {
+          "keys": 0,
+          "widthName": 60,
+          "widthComment": 105,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1743910282423,
+          "createAt": 1743049431514
+        }
+      },
+      "3W_PnipVWmiOB5_jPWy1v": {
+        "id": "3W_PnipVWmiOB5_jPWy1v",
+        "tableId": "wxhTLlX3xvCSk8-_75iV0",
+        "name": "bnusNo",
+        "comment": "보너스 당첨번호",
+        "dataType": "int",
+        "default": "",
+        "options": 0,
+        "ui": {
+          "keys": 0,
+          "widthName": 60,
+          "widthComment": 89,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1743910284150,
+          "createAt": 1743049431679
+        }
+      },
+      "o8hFfrAanoM5-61lQXfct": {
+        "id": "o8hFfrAanoM5-61lQXfct",
+        "tableId": "wxhTLlX3xvCSk8-_75iV0",
+        "name": "totSellamnt",
+        "comment": "총 판매금액",
+        "dataType": "String",
+        "default": "",
+        "options": 0,
+        "ui": {
+          "keys": 0,
+          "widthName": 63,
+          "widthComment": 65,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1743049609279,
+          "createAt": 1743049431852
+        }
+      },
+      "99GukIv2a8P51duev8-PQ": {
+        "id": "99GukIv2a8P51duev8-PQ",
+        "tableId": "wxhTLlX3xvCSk8-_75iV0",
+        "name": "firstAccumamnt",
+        "comment": "1등 총 당첨금액",
+        "dataType": "String",
+        "default": "",
+        "options": 0,
+        "ui": {
+          "keys": 0,
+          "widthName": 85,
+          "widthComment": 87,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1743049611918,
+          "createAt": 1743049432010
+        }
+      },
+      "wNX0J-RZ6nxG7VqhD7n7Q": {
+        "id": "wNX0J-RZ6nxG7VqhD7n7Q",
+        "tableId": "wxhTLlX3xvCSk8-_75iV0",
+        "name": "firstWinamnt",
+        "comment": "1등 개별 당첨금액",
+        "dataType": "String",
+        "default": "",
+        "options": 0,
+        "ui": {
+          "keys": 0,
+          "widthName": 70,
+          "widthComment": 99,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1743049614710,
+          "createAt": 1743049432192
+        }
+      },
+      "Hmu9MXA0yX5NNvLJ2jpEP": {
+        "id": "Hmu9MXA0yX5NNvLJ2jpEP",
+        "tableId": "wxhTLlX3xvCSk8-_75iV0",
+        "name": "firstPrzwnerCo",
+        "comment": "1등 당첨 수",
+        "dataType": "int",
+        "default": "",
+        "options": 0,
+        "ui": {
+          "keys": 0,
+          "widthName": 79,
+          "widthComment": 63,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1743910288182,
+          "createAt": 1743049432366
+        }
+      },
+      "r_XTqelN2QlHymuWRTtoA": {
+        "id": "r_XTqelN2QlHymuWRTtoA",
+        "tableId": "wxhTLlX3xvCSk8-_75iV0",
+        "name": "returnValue",
+        "comment": "응답상태",
+        "dataType": "String",
+        "default": "",
+        "options": 0,
+        "ui": {
+          "keys": 0,
+          "widthName": 63,
+          "widthComment": 60,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1743049620131,
+          "createAt": 1743049432538
+        }
+      },
+      "hYdNuI7Rl6-C8ixlIhJ9i": {
+        "id": "hYdNuI7Rl6-C8ixlIhJ9i",
+        "tableId": "wxhTLlX3xvCSk8-_75iV0",
+        "name": "",
+        "comment": "",
+        "dataType": "",
+        "default": "",
+        "options": 0,
+        "ui": {
+          "keys": 0,
+          "widthName": 60,
+          "widthComment": 60,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1743050146975,
+          "createAt": 1743050146975
+        }
+      },
+      "7pr5TV6g6F2p3gVbBDy-X": {
+        "id": "7pr5TV6g6F2p3gVbBDy-X",
+        "tableId": "u-WorZTsXiuNmR1vmjgr2",
+        "name": "id",
+        "comment": "오브젝트 아이디",
+        "dataType": "String",
+        "default": "",
+        "options": 2,
+        "ui": {
+          "keys": 1,
+          "widthName": 60,
+          "widthComment": 89,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1743052216653,
+          "createAt": 1743050198376
+        }
+      },
+      "H8Ftg0YspiFPQP0bU0_1X": {
+        "id": "H8Ftg0YspiFPQP0bU0_1X",
+        "tableId": "u-WorZTsXiuNmR1vmjgr2",
+        "name": "drwNoTotCnt",
+        "comment": "총 추첨회차 수",
+        "dataType": "Int32",
+        "default": "",
+        "options": 0,
+        "ui": {
+          "keys": 0,
+          "widthName": 72,
+          "widthComment": 81,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1743051053783,
+          "createAt": 1743050200196
+        }
+      },
+      "BsUmYFzNlHKJ5ofsXtDO0": {
+        "id": "BsUmYFzNlHKJ5ofsXtDO0",
+        "tableId": "u-WorZTsXiuNmR1vmjgr2",
+        "name": "drwtCnt",
+        "comment": "번호별 당첨횟수",
+        "dataType": "int [46]",
+        "default": "",
+        "options": 0,
+        "ui": {
+          "keys": 0,
+          "widthName": 60,
+          "widthComment": 89,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1743910389404,
+          "createAt": 1743050200354
+        }
+      },
+      "bEzX9SILRiuegexFLft33": {
+        "id": "bEzX9SILRiuegexFLft33",
+        "tableId": "u-WorZTsXiuNmR1vmjgr2",
+        "name": "drwtCntNo2",
+        "comment": "2번 당첨횟수",
+        "dataType": "Int32",
+        "default": "",
+        "options": 0,
+        "ui": {
+          "keys": 0,
+          "widthName": 67,
+          "widthComment": 72,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1743051084689,
+          "createAt": 1743050200520
+        }
+      },
+      "P9u_N4OYX4A_JSTSnA8H2": {
+        "id": "P9u_N4OYX4A_JSTSnA8H2",
+        "tableId": "u-WorZTsXiuNmR1vmjgr2",
+        "name": "drwtCntNo3",
+        "comment": "3번 당첨횟수",
+        "dataType": "Int32",
+        "default": "",
+        "options": 0,
+        "ui": {
+          "keys": 0,
+          "widthName": 67,
+          "widthComment": 72,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1743051087698,
+          "createAt": 1743050200675
+        }
+      },
+      "LJ9Gh47Dqy3VJibhVGDCz": {
+        "id": "LJ9Gh47Dqy3VJibhVGDCz",
+        "tableId": "u-WorZTsXiuNmR1vmjgr2",
+        "name": "drwtCntNo4",
+        "comment": "4번 당첨횟수",
+        "dataType": "Int32",
+        "default": "",
+        "options": 0,
+        "ui": {
+          "keys": 0,
+          "widthName": 67,
+          "widthComment": 72,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1743051090225,
+          "createAt": 1743050200858
+        }
+      },
+      "5I2_6UNywcENT8Nbf7EQt": {
+        "id": "5I2_6UNywcENT8Nbf7EQt",
+        "tableId": "u-WorZTsXiuNmR1vmjgr2",
+        "name": "drwtCntNo5",
+        "comment": "5번 당첨횟수",
+        "dataType": "Int32",
+        "default": "",
+        "options": 0,
+        "ui": {
+          "keys": 0,
+          "widthName": 67,
+          "widthComment": 72,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1743051093547,
+          "createAt": 1743050201032
+        }
+      },
+      "4lbH9OaaSyMETms7tlB5o": {
+        "id": "4lbH9OaaSyMETms7tlB5o",
+        "tableId": "u-WorZTsXiuNmR1vmjgr2",
+        "name": "drwtCntNo6",
+        "comment": "6번 당첨횟수",
+        "dataType": "Int32",
+        "default": "",
+        "options": 0,
+        "ui": {
+          "keys": 0,
+          "widthName": 67,
+          "widthComment": 72,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1743051099069,
+          "createAt": 1743050201203
+        }
+      },
+      "z8U4khJHmUGyeJugRwOSF": {
+        "id": "z8U4khJHmUGyeJugRwOSF",
+        "tableId": "u-WorZTsXiuNmR1vmjgr2",
+        "name": "drwtCntNo7",
+        "comment": "7번 당첨횟수",
+        "dataType": "Int32",
+        "default": "",
+        "options": 0,
+        "ui": {
+          "keys": 0,
+          "widthName": 67,
+          "widthComment": 72,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1743051103259,
+          "createAt": 1743050201384
+        }
+      },
+      "2mIDO0XLLYMX3uWkxWNg0": {
+        "id": "2mIDO0XLLYMX3uWkxWNg0",
+        "tableId": "u-WorZTsXiuNmR1vmjgr2",
+        "name": "drwtCntNo8",
+        "comment": "8번 당첨횟수",
+        "dataType": "Int32",
+        "default": "",
+        "options": 0,
+        "ui": {
+          "keys": 0,
+          "widthName": 67,
+          "widthComment": 72,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1743051107240,
+          "createAt": 1743050201545
+        }
+      },
+      "31Y14G47QOuQ5_-7Q63sH": {
+        "id": "31Y14G47QOuQ5_-7Q63sH",
+        "tableId": "u-WorZTsXiuNmR1vmjgr2",
+        "name": "drwtCntNo9",
+        "comment": "9번 당첨횟수",
+        "dataType": "Int32",
+        "default": "",
+        "options": 0,
+        "ui": {
+          "keys": 0,
+          "widthName": 67,
+          "widthComment": 72,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1743051117865,
+          "createAt": 1743050201724
+        }
+      },
+      "XlQdK0RNQ4dFk-Znm1YOt": {
+        "id": "XlQdK0RNQ4dFk-Znm1YOt",
+        "tableId": "u-WorZTsXiuNmR1vmjgr2",
+        "name": "drwtCntNo10",
+        "comment": "10번 당첨횟수",
+        "dataType": "Int32",
+        "default": "",
+        "options": 0,
+        "ui": {
+          "keys": 0,
+          "widthName": 73,
+          "widthComment": 78,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1743051119423,
+          "createAt": 1743050201898
+        }
+      },
+      "h3fFKeBre-p8nNbPfTOtd": {
+        "id": "h3fFKeBre-p8nNbPfTOtd",
+        "tableId": "u-WorZTsXiuNmR1vmjgr2",
+        "name": "drwtCntNo11",
+        "comment": "11번 당첨횟수",
+        "dataType": "Int32",
+        "default": "",
+        "options": 0,
+        "ui": {
+          "keys": 0,
+          "widthName": 73,
+          "widthComment": 78,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1743051125964,
+          "createAt": 1743050202078
+        }
+      },
+      "u6SaMz_hH2SnABm2RnAQc": {
+        "id": "u6SaMz_hH2SnABm2RnAQc",
+        "tableId": "u-WorZTsXiuNmR1vmjgr2",
+        "name": "drwtCntNo12",
+        "comment": "12번 당첨횟수",
+        "dataType": "Int32",
+        "default": "",
+        "options": 0,
+        "ui": {
+          "keys": 0,
+          "widthName": 73,
+          "widthComment": 78,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1743051127451,
+          "createAt": 1743050202254
+        }
+      },
+      "Ev5S9GxcldbGKA7uAO3ZP": {
+        "id": "Ev5S9GxcldbGKA7uAO3ZP",
+        "tableId": "u-WorZTsXiuNmR1vmjgr2",
+        "name": "drwtCntNo13",
+        "comment": "13번 당첨횟수",
+        "dataType": "Int32",
+        "default": "",
+        "options": 0,
+        "ui": {
+          "keys": 0,
+          "widthName": 73,
+          "widthComment": 78,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1743051130262,
+          "createAt": 1743050202456
+        }
+      },
+      "5dyCGZJz94zzt8GDuXAqE": {
+        "id": "5dyCGZJz94zzt8GDuXAqE",
+        "tableId": "u-WorZTsXiuNmR1vmjgr2",
+        "name": "drwtCntNo14",
+        "comment": "14번 당첨횟수",
+        "dataType": "Int32",
+        "default": "",
+        "options": 0,
+        "ui": {
+          "keys": 0,
+          "widthName": 73,
+          "widthComment": 78,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1743051132708,
+          "createAt": 1743050773654
+        }
+      },
+      "v_Rrd_MO8qz_qkaJkyXVu": {
+        "id": "v_Rrd_MO8qz_qkaJkyXVu",
+        "tableId": "u-WorZTsXiuNmR1vmjgr2",
+        "name": "drwtCntNo15",
+        "comment": "15번 당첨횟수",
+        "dataType": "Int32",
+        "default": "",
+        "options": 0,
+        "ui": {
+          "keys": 0,
+          "widthName": 73,
+          "widthComment": 78,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1743051135301,
+          "createAt": 1743050774160
+        }
+      },
+      "WhBim-ma0yKw_bBtH2NbZ": {
+        "id": "WhBim-ma0yKw_bBtH2NbZ",
+        "tableId": "u-WorZTsXiuNmR1vmjgr2",
+        "name": "drwtCntNo16",
+        "comment": "16번 당첨횟수",
+        "dataType": "Int32",
+        "default": "",
+        "options": 0,
+        "ui": {
+          "keys": 0,
+          "widthName": 73,
+          "widthComment": 78,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1743051138159,
+          "createAt": 1743050774600
+        }
+      },
+      "2BRinLL87kJKjsPUn8INA": {
+        "id": "2BRinLL87kJKjsPUn8INA",
+        "tableId": "u-WorZTsXiuNmR1vmjgr2",
+        "name": "drwtCntNo17",
+        "comment": "17번 당첨횟수",
+        "dataType": "Int32",
+        "default": "",
+        "options": 0,
+        "ui": {
+          "keys": 0,
+          "widthName": 73,
+          "widthComment": 78,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1743051140649,
+          "createAt": 1743050775056
+        }
+      },
+      "lkg0ARKTOnnOBcTXr48ud": {
+        "id": "lkg0ARKTOnnOBcTXr48ud",
+        "tableId": "u-WorZTsXiuNmR1vmjgr2",
+        "name": "drwtCntNo18",
+        "comment": "18번 당첨횟수",
+        "dataType": "Int32",
+        "default": "",
+        "options": 0,
+        "ui": {
+          "keys": 0,
+          "widthName": 73,
+          "widthComment": 78,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1743051143441,
+          "createAt": 1743050775483
+        }
+      },
+      "NlorJR3u4Bo47FipzZ3xV": {
+        "id": "NlorJR3u4Bo47FipzZ3xV",
+        "tableId": "u-WorZTsXiuNmR1vmjgr2",
+        "name": "drwtCntNo19",
+        "comment": "19번 당첨횟수",
+        "dataType": "Int32",
+        "default": "",
+        "options": 0,
+        "ui": {
+          "keys": 0,
+          "widthName": 73,
+          "widthComment": 78,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1743051146625,
+          "createAt": 1743050775875
+        }
+      },
+      "Dmsh5sRqFYhyqiygEAs-V": {
+        "id": "Dmsh5sRqFYhyqiygEAs-V",
+        "tableId": "u-WorZTsXiuNmR1vmjgr2",
+        "name": "drwtCntNo20",
+        "comment": "20번 당첨횟수",
+        "dataType": "Int32",
+        "default": "",
+        "options": 0,
+        "ui": {
+          "keys": 0,
+          "widthName": 73,
+          "widthComment": 78,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1743051149124,
+          "createAt": 1743050776262
+        }
+      },
+      "3YarxmuIEiAqE8p46tkb0": {
+        "id": "3YarxmuIEiAqE8p46tkb0",
+        "tableId": "u-WorZTsXiuNmR1vmjgr2",
+        "name": "drwtCntNo21",
+        "comment": "21번 당첨횟수",
+        "dataType": "Int32",
+        "default": "",
+        "options": 0,
+        "ui": {
+          "keys": 0,
+          "widthName": 73,
+          "widthComment": 78,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1743051152260,
+          "createAt": 1743050776811
+        }
+      },
+      "dXeyftR_LAIWstumXhIet": {
+        "id": "dXeyftR_LAIWstumXhIet",
+        "tableId": "u-WorZTsXiuNmR1vmjgr2",
+        "name": "drwtCntNo22",
+        "comment": "22번 당첨횟수",
+        "dataType": "Int32",
+        "default": "",
+        "options": 0,
+        "ui": {
+          "keys": 0,
+          "widthName": 73,
+          "widthComment": 78,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1743051156026,
+          "createAt": 1743050777246
+        }
+      },
+      "qNJQosWZ5G56YVRF9woAp": {
+        "id": "qNJQosWZ5G56YVRF9woAp",
+        "tableId": "u-WorZTsXiuNmR1vmjgr2",
+        "name": "drwtCntNo23",
+        "comment": "23번 당첨횟수",
+        "dataType": "Int32",
+        "default": "",
+        "options": 0,
+        "ui": {
+          "keys": 0,
+          "widthName": 73,
+          "widthComment": 78,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1743051157974,
+          "createAt": 1743050777734
+        }
+      },
+      "ClTv51uOFE3Yf9JdqpQ20": {
+        "id": "ClTv51uOFE3Yf9JdqpQ20",
+        "tableId": "u-WorZTsXiuNmR1vmjgr2",
+        "name": "drwtCntNo24",
+        "comment": "24번 당첨횟수",
+        "dataType": "Int32",
+        "default": "",
+        "options": 0,
+        "ui": {
+          "keys": 0,
+          "widthName": 73,
+          "widthComment": 78,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1743051162189,
+          "createAt": 1743050778160
+        }
+      },
+      "GCPHRHTSJfcyJ6yrOcHWc": {
+        "id": "GCPHRHTSJfcyJ6yrOcHWc",
+        "tableId": "u-WorZTsXiuNmR1vmjgr2",
+        "name": "drwtCntNo25",
+        "comment": "25번 당첨횟수",
+        "dataType": "Int32",
+        "default": "",
+        "options": 0,
+        "ui": {
+          "keys": 0,
+          "widthName": 73,
+          "widthComment": 78,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1743051165417,
+          "createAt": 1743050778607
+        }
+      },
+      "y3ZUP1d9sAwcAPuxX3VxK": {
+        "id": "y3ZUP1d9sAwcAPuxX3VxK",
+        "tableId": "u-WorZTsXiuNmR1vmjgr2",
+        "name": "drwtCntNo26",
+        "comment": "26번 당첨횟수",
+        "dataType": "Int32",
+        "default": "",
+        "options": 0,
+        "ui": {
+          "keys": 0,
+          "widthName": 73,
+          "widthComment": 78,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1743051168895,
+          "createAt": 1743050779026
+        }
+      },
+      "lGw_t8dcS2cD_EJq1NQFg": {
+        "id": "lGw_t8dcS2cD_EJq1NQFg",
+        "tableId": "u-WorZTsXiuNmR1vmjgr2",
+        "name": "drwtCntNo27",
+        "comment": "27번 당첨횟수",
+        "dataType": "Int32",
+        "default": "",
+        "options": 0,
+        "ui": {
+          "keys": 0,
+          "widthName": 73,
+          "widthComment": 78,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1743051171804,
+          "createAt": 1743050779436
+        }
+      },
+      "ltBqB69Tl1qi9FkyZ8Ke4": {
+        "id": "ltBqB69Tl1qi9FkyZ8Ke4",
+        "tableId": "u-WorZTsXiuNmR1vmjgr2",
+        "name": "drwtCntNo28",
+        "comment": "28번 당첨횟수",
+        "dataType": "Int32",
+        "default": "",
+        "options": 0,
+        "ui": {
+          "keys": 0,
+          "widthName": 73,
+          "widthComment": 78,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1743051175841,
+          "createAt": 1743050779820
+        }
+      },
+      "KOm8QDwOqy8fvWu2sKxmM": {
+        "id": "KOm8QDwOqy8fvWu2sKxmM",
+        "tableId": "u-WorZTsXiuNmR1vmjgr2",
+        "name": "drwtCntNo29",
+        "comment": "29번 당첨횟수",
+        "dataType": "Int32",
+        "default": "",
+        "options": 0,
+        "ui": {
+          "keys": 0,
+          "widthName": 73,
+          "widthComment": 78,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1743051180527,
+          "createAt": 1743050780246
+        }
+      },
+      "A4tmmscWjzrw4yXqdptLo": {
+        "id": "A4tmmscWjzrw4yXqdptLo",
+        "tableId": "u-WorZTsXiuNmR1vmjgr2",
+        "name": "drwtCntNo30",
+        "comment": "30번 당첨횟수",
+        "dataType": "Int32",
+        "default": "",
+        "options": 0,
+        "ui": {
+          "keys": 0,
+          "widthName": 73,
+          "widthComment": 78,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1743051183449,
+          "createAt": 1743050780688
+        }
+      },
+      "J7gSIqrx40XhoDa4gUb5f": {
+        "id": "J7gSIqrx40XhoDa4gUb5f",
+        "tableId": "u-WorZTsXiuNmR1vmjgr2",
+        "name": "drwtCntNo31",
+        "comment": "31번 당첨횟수",
+        "dataType": "Int32",
+        "default": "",
+        "options": 0,
+        "ui": {
+          "keys": 0,
+          "widthName": 73,
+          "widthComment": 78,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1743051188006,
+          "createAt": 1743050781129
+        }
+      },
+      "n1xamPf1zNHbTCcLt6CvL": {
+        "id": "n1xamPf1zNHbTCcLt6CvL",
+        "tableId": "u-WorZTsXiuNmR1vmjgr2",
+        "name": "drwtCntNo32",
+        "comment": "32번 당첨횟수",
+        "dataType": "Int32",
+        "default": "",
+        "options": 0,
+        "ui": {
+          "keys": 0,
+          "widthName": 73,
+          "widthComment": 78,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1743051192582,
+          "createAt": 1743050781592
+        }
+      },
+      "e8_2xpAFIFm1nEWck3U-v": {
+        "id": "e8_2xpAFIFm1nEWck3U-v",
+        "tableId": "u-WorZTsXiuNmR1vmjgr2",
+        "name": "drwtCntNo33",
+        "comment": "33번 당첨횟수",
+        "dataType": "Int32",
+        "default": "",
+        "options": 0,
+        "ui": {
+          "keys": 0,
+          "widthName": 73,
+          "widthComment": 78,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1743051195536,
+          "createAt": 1743050782042
+        }
+      },
+      "ZkaAsgrvL-MmYmDcGl54q": {
+        "id": "ZkaAsgrvL-MmYmDcGl54q",
+        "tableId": "u-WorZTsXiuNmR1vmjgr2",
+        "name": "drwtCntNo34",
+        "comment": "34번 당첨횟수",
+        "dataType": "Int32",
+        "default": "",
+        "options": 0,
+        "ui": {
+          "keys": 0,
+          "widthName": 73,
+          "widthComment": 78,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1743051199349,
+          "createAt": 1743050782473
+        }
+      },
+      "AEWikay82tGBCTHlvvzsJ": {
+        "id": "AEWikay82tGBCTHlvvzsJ",
+        "tableId": "u-WorZTsXiuNmR1vmjgr2",
+        "name": "drwtCntNo35",
+        "comment": "35번 당첨횟수",
+        "dataType": "Int32",
+        "default": "",
+        "options": 0,
+        "ui": {
+          "keys": 0,
+          "widthName": 73,
+          "widthComment": 78,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1743051202062,
+          "createAt": 1743050782916
+        }
+      },
+      "pBQvkkSaLw7V3jebqPyd5": {
+        "id": "pBQvkkSaLw7V3jebqPyd5",
+        "tableId": "u-WorZTsXiuNmR1vmjgr2",
+        "name": "drwtCntNo36",
+        "comment": "36번 당첨횟수",
+        "dataType": "Int32",
+        "default": "",
+        "options": 0,
+        "ui": {
+          "keys": 0,
+          "widthName": 73,
+          "widthComment": 78,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1743051205120,
+          "createAt": 1743050783318
+        }
+      },
+      "ebsninp1WZL912507jhr1": {
+        "id": "ebsninp1WZL912507jhr1",
+        "tableId": "u-WorZTsXiuNmR1vmjgr2",
+        "name": "drwtCntNo37",
+        "comment": "37번 당첨횟수",
+        "dataType": "Int32",
+        "default": "",
+        "options": 0,
+        "ui": {
+          "keys": 0,
+          "widthName": 73,
+          "widthComment": 78,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1743051207836,
+          "createAt": 1743050783734
+        }
+      },
+      "6BMP844CTnbx8xmdlgr9H": {
+        "id": "6BMP844CTnbx8xmdlgr9H",
+        "tableId": "u-WorZTsXiuNmR1vmjgr2",
+        "name": "drwtCntNo38",
+        "comment": "38번 당첨횟수",
+        "dataType": "Int32",
+        "default": "",
+        "options": 0,
+        "ui": {
+          "keys": 0,
+          "widthName": 73,
+          "widthComment": 78,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1743051210445,
+          "createAt": 1743050784136
+        }
+      },
+      "U8NUieOmH91pSJG9S89GX": {
+        "id": "U8NUieOmH91pSJG9S89GX",
+        "tableId": "u-WorZTsXiuNmR1vmjgr2",
+        "name": "drwtCntNo39",
+        "comment": "39번 당첨횟수",
+        "dataType": "Int32",
+        "default": "",
+        "options": 0,
+        "ui": {
+          "keys": 0,
+          "widthName": 73,
+          "widthComment": 78,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1743051214376,
+          "createAt": 1743050784578
+        }
+      },
+      "oXFLyuNtrzS8wgBAcSjNx": {
+        "id": "oXFLyuNtrzS8wgBAcSjNx",
+        "tableId": "u-WorZTsXiuNmR1vmjgr2",
+        "name": "drwtCntNo40",
+        "comment": "40번 당첨횟수",
+        "dataType": "Int32",
+        "default": "",
+        "options": 0,
+        "ui": {
+          "keys": 0,
+          "widthName": 73,
+          "widthComment": 78,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1743051219242,
+          "createAt": 1743050785035
+        }
+      },
+      "HbBwhAWiEKnOeUqsOlqQn": {
+        "id": "HbBwhAWiEKnOeUqsOlqQn",
+        "tableId": "u-WorZTsXiuNmR1vmjgr2",
+        "name": "drwtCntNo41",
+        "comment": "41번 당첨횟수",
+        "dataType": "Int32",
+        "default": "",
+        "options": 0,
+        "ui": {
+          "keys": 0,
+          "widthName": 73,
+          "widthComment": 78,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1743051221170,
+          "createAt": 1743050785474
+        }
+      },
+      "Zi1AWpSYY9XWJVqdXVk6b": {
+        "id": "Zi1AWpSYY9XWJVqdXVk6b",
+        "tableId": "u-WorZTsXiuNmR1vmjgr2",
+        "name": "drwtCntNo42",
+        "comment": "42번 당첨횟수",
+        "dataType": "Int32",
+        "default": "",
+        "options": 0,
+        "ui": {
+          "keys": 0,
+          "widthName": 73,
+          "widthComment": 78,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1743051224006,
+          "createAt": 1743050785901
+        }
+      },
+      "wJJuqigjzHEtEYszfJHLe": {
+        "id": "wJJuqigjzHEtEYszfJHLe",
+        "tableId": "u-WorZTsXiuNmR1vmjgr2",
+        "name": "drwtCntNo43",
+        "comment": "43번 당첨횟수",
+        "dataType": "Int32",
+        "default": "",
+        "options": 0,
+        "ui": {
+          "keys": 0,
+          "widthName": 73,
+          "widthComment": 78,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1743051226974,
+          "createAt": 1743050786372
+        }
+      },
+      "QFojO1EJM193eKFw5J-ur": {
+        "id": "QFojO1EJM193eKFw5J-ur",
+        "tableId": "u-WorZTsXiuNmR1vmjgr2",
+        "name": "drwtCntNo44",
+        "comment": "44번 당첨횟수",
+        "dataType": "Int32",
+        "default": "",
+        "options": 0,
+        "ui": {
+          "keys": 0,
+          "widthName": 73,
+          "widthComment": 78,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1743051230306,
+          "createAt": 1743050786845
+        }
+      },
+      "QVWq2TaoxqUaySGy58ApG": {
+        "id": "QVWq2TaoxqUaySGy58ApG",
+        "tableId": "u-WorZTsXiuNmR1vmjgr2",
+        "name": "drwtPct",
+        "comment": "번호별 당첨비율",
+        "dataType": "double [46]",
+        "default": "",
+        "options": 0,
+        "ui": {
+          "keys": 0,
+          "widthName": 60,
+          "widthComment": 89,
+          "widthDataType": 63,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1743910404170,
+          "createAt": 1743050787286
+        }
+      },
+      "OitI7ahdqwjhb8PPwcdXZ": {
+        "id": "OitI7ahdqwjhb8PPwcdXZ",
+        "tableId": "u-WorZTsXiuNmR1vmjgr2",
+        "name": "drwtCntNo1",
+        "comment": "1번 당첨횟수",
+        "dataType": "Int32",
+        "default": "",
+        "options": 0,
+        "ui": {
+          "keys": 0,
+          "widthName": 67,
+          "widthComment": 72,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1743050888073,
+          "createAt": 1743050817560
+        }
+      }
+    },
+    "relationshipEntities": {},
+    "indexEntities": {},
+    "indexColumnEntities": {},
+    "memoEntities": {}
+  },
+  "lww": {
+    "wxhTLlX3xvCSk8-_75iV0": [
+      "tableEntities",
+      1743042807675,
+      -1,
+      {
+        "name": 1743049183683,
+        "comment": 1743049207480,
+        "ui.color": 1743049648895
+      }
+    ],
+    "FHvbFYPVA2bVGH_6dm2Am": [
+      "tableColumnEntities",
+      1743049209974,
+      -1,
+      {
+        "options(primaryKey)": 1743049219414,
+        "name": 1743049426230,
+        "dataType": 1743049426230,
+        "options(notNull)": 1743049426230,
+        "comment": 1743049426230,
+        "default": 1743049426230
+      }
+    ],
+    "RZ-sUDetm6Z7cV27v2PXN": [
+      "tableColumnEntities",
+      1743049427716,
+      -1,
+      {
+        "name": 1743049439775,
+        "dataType": 1743049498279,
+        "comment": 1743049567613
+      }
+    ],
+    "lvyHn30N09PE-pQhqpUUq": [
+      "tableColumnEntities",
+      1743049428117,
+      -1,
+      {
+        "name": 1743049441935,
+        "dataType": 1743910256615,
+        "comment": 1743049570177
+      }
+    ],
+    "QESuHwnaClrkvYOAwXmVM": [
+      "tableColumnEntities",
+      1743049430197,
+      -1,
+      {
+        "name": 1743049445028,
+        "dataType": 1743910266302,
+        "comment": 1743049573911
+      }
+    ],
+    "EV6WoFlUEC6-vv6zjhZ29": [
+      "tableColumnEntities",
+      1743049430371,
+      -1,
+      {
+        "name": 1743049468440,
+        "dataType": 1743910271768,
+        "comment": 1743049589913
+      }
+    ],
+    "Lw-mttxmLpXNGwPjgbSJf": [
+      "tableColumnEntities",
+      1743049430576,
+      -1,
+      {
+        "name": 1743049533525,
+        "dataType": 1743910275770,
+        "options(notNull)": 1743049537091,
+        "default": 1743049533525,
+        "comment": 1743049592932
+      }
+    ],
+    "9i8ALViS9UbP2NXyeBfBb": [
+      "tableColumnEntities",
+      1743049431176,
+      -1,
+      {
+        "name": 1743049471860,
+        "dataType": 1743910278098,
+        "comment": 1743049595930
+      }
+    ],
+    "k5jCC1jcYSYUTXJCDC9er": [
+      "tableColumnEntities",
+      1743049431348,
+      -1,
+      {
+        "name": 1743049473420,
+        "dataType": 1743910280063,
+        "comment": 1743049599348
+      }
+    ],
+    "bR2WbZlTjhyFn_W5mNVyn": [
+      "tableColumnEntities",
+      1743049431514,
+      -1,
+      {
+        "name": 1743049474980,
+        "dataType": 1743910282423,
+        "comment": 1743049603384
+      }
+    ],
+    "3W_PnipVWmiOB5_jPWy1v": [
+      "tableColumnEntities",
+      1743049431679,
+      -1,
+      {
+        "name": 1743049479016,
+        "dataType": 1743910284149,
+        "comment": 1743049606895
+      }
+    ],
+    "o8hFfrAanoM5-61lQXfct": [
+      "tableColumnEntities",
+      1743049431851,
+      -1,
+      {
+        "name": 1743049481222,
+        "dataType": 1743049550253,
+        "comment": 1743049609279
+      }
+    ],
+    "99GukIv2a8P51duev8-PQ": [
+      "tableColumnEntities",
+      1743049432010,
+      -1,
+      {
+        "name": 1743049483100,
+        "dataType": 1743049553079,
+        "comment": 1743049611918
+      }
+    ],
+    "wNX0J-RZ6nxG7VqhD7n7Q": [
+      "tableColumnEntities",
+      1743049432192,
+      -1,
+      {
+        "name": 1743049485363,
+        "dataType": 1743049555267,
+        "comment": 1743049614709
+      }
+    ],
+    "Hmu9MXA0yX5NNvLJ2jpEP": [
+      "tableColumnEntities",
+      1743049432365,
+      -1,
+      {
+        "name": 1743049487432,
+        "dataType": 1743910288181,
+        "comment": 1743049617634
+      }
+    ],
+    "r_XTqelN2QlHymuWRTtoA": [
+      "tableColumnEntities",
+      1743049432537,
+      -1,
+      {
+        "name": 1743049489809,
+        "dataType": 1743049562403,
+        "comment": 1743049620131
+      }
+    ],
+    "hYdNuI7Rl6-C8ixlIhJ9i": [
+      "tableColumnEntities",
+      1743050146974,
+      1743050149242,
+      {}
+    ],
+    "u-WorZTsXiuNmR1vmjgr2": [
+      "tableEntities",
+      1743050151360,
+      -1,
+      {
+        "name": 1743050159772,
+        "ui.color": 1743050183833,
+        "comment": 1743050198286
+      }
+    ],
+    "7pr5TV6g6F2p3gVbBDy-X": [
+      "tableColumnEntities",
+      1743050198374,
+      -1,
+      {
+        "name": 1743050464875,
+        "dataType": 1743050469172,
+        "comment": 1743050476464,
+        "options(primaryKey)": 1743051291725,
+        "options(notNull)": 1743052216652
+      }
+    ],
+    "H8Ftg0YspiFPQP0bU0_1X": [
+      "tableColumnEntities",
+      1743050200196,
+      -1,
+      {
+        "name": 1743050669440,
+        "comment": 1743050536456,
+        "dataType": 1743051053783
+      }
+    ],
+    "BsUmYFzNlHKJ5ofsXtDO0": [
+      "tableColumnEntities",
+      1743050200353,
+      -1,
+      {
+        "name": 1743910033452,
+        "comment": 1743910389404,
+        "dataType": 1743910297746,
+        "options(notNull)": 1743050756694
+      }
+    ],
+    "bEzX9SILRiuegexFLft33": [
+      "tableColumnEntities",
+      1743050200519,
+      1743910308442,
+      {
+        "name": 1743050892720,
+        "dataType": 1743050869525,
+        "options(notNull)": 1743050869525,
+        "comment": 1743051084687
+      }
+    ],
+    "P9u_N4OYX4A_JSTSnA8H2": [
+      "tableColumnEntities",
+      1743050200674,
+      1743910308841,
+      {
+        "name": 1743050894211,
+        "dataType": 1743050871396,
+        "options(notNull)": 1743050871396,
+        "comment": 1743051087698
+      }
+    ],
+    "LJ9Gh47Dqy3VJibhVGDCz": [
+      "tableColumnEntities",
+      1743050200857,
+      1743910309075,
+      {
+        "name": 1743050908981,
+        "dataType": 1743050871768,
+        "options(notNull)": 1743050871768,
+        "comment": 1743051090223
+      }
+    ],
+    "5I2_6UNywcENT8Nbf7EQt": [
+      "tableColumnEntities",
+      1743050201031,
+      1743910309261,
+      {
+        "name": 1743050910380,
+        "dataType": 1743050872149,
+        "options(notNull)": 1743050872149,
+        "comment": 1743051093546
+      }
+    ],
+    "4lbH9OaaSyMETms7tlB5o": [
+      "tableColumnEntities",
+      1743050201203,
+      1743910309710,
+      {
+        "name": 1743050913482,
+        "dataType": 1743050872519,
+        "options(notNull)": 1743050872519,
+        "comment": 1743051099069
+      }
+    ],
+    "z8U4khJHmUGyeJugRwOSF": [
+      "tableColumnEntities",
+      1743050201384,
+      1743910309933,
+      {
+        "name": 1743050915253,
+        "dataType": 1743050873418,
+        "options(notNull)": 1743050873418,
+        "comment": 1743051103257
+      }
+    ],
+    "2mIDO0XLLYMX3uWkxWNg0": [
+      "tableColumnEntities",
+      1743050201544,
+      1743910306431,
+      {
+        "name": 1743050918226,
+        "dataType": 1743050874630,
+        "options(notNull)": 1743050874630,
+        "comment": 1743051107236
+      }
+    ],
+    "31Y14G47QOuQ5_-7Q63sH": [
+      "tableColumnEntities",
+      1743050201724,
+      1743910310121,
+      {
+        "name": 1743050920579,
+        "dataType": 1743050875053,
+        "options(notNull)": 1743050875053,
+        "comment": 1743051117864
+      }
+    ],
+    "XlQdK0RNQ4dFk-Znm1YOt": [
+      "tableColumnEntities",
+      1743050201897,
+      1743910310321,
+      {
+        "name": 1743050924815,
+        "dataType": 1743050875340,
+        "options(notNull)": 1743050875340,
+        "comment": 1743051119422
+      }
+    ],
+    "h3fFKeBre-p8nNbPfTOtd": [
+      "tableColumnEntities",
+      1743050202077,
+      1743910310537,
+      {
+        "name": 1743050926792,
+        "dataType": 1743050875561,
+        "options(notNull)": 1743050875561,
+        "comment": 1743051125964
+      }
+    ],
+    "u6SaMz_hH2SnABm2RnAQc": [
+      "tableColumnEntities",
+      1743050202254,
+      1743910310732,
+      {
+        "name": 1743050927900,
+        "dataType": 1743050875756,
+        "options(notNull)": 1743050875756,
+        "comment": 1743051127450
+      }
+    ],
+    "Ev5S9GxcldbGKA7uAO3ZP": [
+      "tableColumnEntities",
+      1743050202455,
+      1743910310931,
+      {
+        "name": 1743050930448,
+        "dataType": 1743050875950,
+        "options(notNull)": 1743050875950,
+        "comment": 1743051130261
+      }
+    ],
+    "5dyCGZJz94zzt8GDuXAqE": [
+      "tableColumnEntities",
+      1743050773654,
+      1743910311122,
+      {
+        "name": 1743050931453,
+        "dataType": 1743050876153,
+        "options(notNull)": 1743050876153,
+        "comment": 1743051132707
+      }
+    ],
+    "v_Rrd_MO8qz_qkaJkyXVu": [
+      "tableColumnEntities",
+      1743050774159,
+      1743910311312,
+      {
+        "name": 1743050932650,
+        "dataType": 1743050876363,
+        "options(notNull)": 1743050876363,
+        "comment": 1743051135298
+      }
+    ],
+    "WhBim-ma0yKw_bBtH2NbZ": [
+      "tableColumnEntities",
+      1743050774600,
+      1743910311506,
+      {
+        "name": 1743050934608,
+        "dataType": 1743050876559,
+        "options(notNull)": 1743050876559,
+        "comment": 1743051138159
+      }
+    ],
+    "2BRinLL87kJKjsPUn8INA": [
+      "tableColumnEntities",
+      1743050775055,
+      1743910311699,
+      {
+        "name": 1743050936041,
+        "dataType": 1743050876746,
+        "options(notNull)": 1743050876746,
+        "comment": 1743051140622
+      }
+    ],
+    "lkg0ARKTOnnOBcTXr48ud": [
+      "tableColumnEntities",
+      1743050775482,
+      1743910311889,
+      {
+        "name": 1743050937317,
+        "dataType": 1743050876945,
+        "options(notNull)": 1743050876945,
+        "comment": 1743051143439
+      }
+    ],
+    "NlorJR3u4Bo47FipzZ3xV": [
+      "tableColumnEntities",
+      1743050775875,
+      1743910312071,
+      {
+        "name": 1743050938732,
+        "dataType": 1743050877152,
+        "options(notNull)": 1743050877152,
+        "comment": 1743051146623
+      }
+    ],
+    "Dmsh5sRqFYhyqiygEAs-V": [
+      "tableColumnEntities",
+      1743050776262,
+      1743910312260,
+      {
+        "name": 1743050941156,
+        "dataType": 1743050877368,
+        "options(notNull)": 1743050877368,
+        "comment": 1743051149124
+      }
+    ],
+    "3YarxmuIEiAqE8p46tkb0": [
+      "tableColumnEntities",
+      1743050776811,
+      1743910312464,
+      {
+        "name": 1743050946650,
+        "dataType": 1743050877572,
+        "options(notNull)": 1743050877572,
+        "comment": 1743051152259
+      }
+    ],
+    "dXeyftR_LAIWstumXhIet": [
+      "tableColumnEntities",
+      1743050777245,
+      1743910312658,
+      {
+        "name": 1743050948840,
+        "dataType": 1743050877815,
+        "options(notNull)": 1743050877815,
+        "comment": 1743051156025
+      }
+    ],
+    "qNJQosWZ5G56YVRF9woAp": [
+      "tableColumnEntities",
+      1743050777734,
+      1743910312844,
+      {
+        "name": 1743050950433,
+        "dataType": 1743050878007,
+        "options(notNull)": 1743050878007,
+        "comment": 1743051157973
+      }
+    ],
+    "ClTv51uOFE3Yf9JdqpQ20": [
+      "tableColumnEntities",
+      1743050778159,
+      1743910313041,
+      {
+        "name": 1743050952976,
+        "dataType": 1743050878230,
+        "options(notNull)": 1743050878230,
+        "comment": 1743051162188
+      }
+    ],
+    "GCPHRHTSJfcyJ6yrOcHWc": [
+      "tableColumnEntities",
+      1743050778607,
+      1743910313256,
+      {
+        "name": 1743050955498,
+        "dataType": 1743050878449,
+        "options(notNull)": 1743050878449,
+        "comment": 1743051165416
+      }
+    ],
+    "y3ZUP1d9sAwcAPuxX3VxK": [
+      "tableColumnEntities",
+      1743050779025,
+      1743910313450,
+      {
+        "name": 1743050957446,
+        "dataType": 1743050878641,
+        "options(notNull)": 1743050878641,
+        "comment": 1743051168894
+      }
+    ],
+    "lGw_t8dcS2cD_EJq1NQFg": [
+      "tableColumnEntities",
+      1743050779435,
+      1743910313646,
+      {
+        "name": 1743050959621,
+        "dataType": 1743050878846,
+        "options(notNull)": 1743050878846,
+        "comment": 1743051171803
+      }
+    ],
+    "ltBqB69Tl1qi9FkyZ8Ke4": [
+      "tableColumnEntities",
+      1743050779819,
+      1743910313836,
+      {
+        "name": 1743050961812,
+        "dataType": 1743050879072,
+        "options(notNull)": 1743050879072,
+        "comment": 1743051175839
+      }
+    ],
+    "KOm8QDwOqy8fvWu2sKxmM": [
+      "tableColumnEntities",
+      1743050780245,
+      1743910314032,
+      {
+        "name": 1743050963522,
+        "dataType": 1743050879297,
+        "options(notNull)": 1743050879297,
+        "comment": 1743051180526
+      }
+    ],
+    "A4tmmscWjzrw4yXqdptLo": [
+      "tableColumnEntities",
+      1743050780687,
+      1743910314235,
+      {
+        "name": 1743050964996,
+        "dataType": 1743050879525,
+        "options(notNull)": 1743050879525,
+        "comment": 1743051183448
+      }
+    ],
+    "J7gSIqrx40XhoDa4gUb5f": [
+      "tableColumnEntities",
+      1743050781129,
+      1743910314451,
+      {
+        "name": 1743050966590,
+        "dataType": 1743050879741,
+        "options(notNull)": 1743050879741,
+        "comment": 1743051188006
+      }
+    ],
+    "n1xamPf1zNHbTCcLt6CvL": [
+      "tableColumnEntities",
+      1743050781591,
+      1743910314674,
+      {
+        "name": 1743050968216,
+        "dataType": 1743050879948,
+        "options(notNull)": 1743050879948,
+        "comment": 1743051192581
+      }
+    ],
+    "e8_2xpAFIFm1nEWck3U-v": [
+      "tableColumnEntities",
+      1743050782042,
+      1743910314866,
+      {
+        "name": 1743050970006,
+        "dataType": 1743050880159,
+        "options(notNull)": 1743050880159,
+        "comment": 1743051195535
+      }
+    ],
+    "ZkaAsgrvL-MmYmDcGl54q": [
+      "tableColumnEntities",
+      1743050782473,
+      1743910315074,
+      {
+        "name": 1743050971757,
+        "dataType": 1743050882656,
+        "options(notNull)": 1743050882656,
+        "comment": 1743051199348
+      }
+    ],
+    "AEWikay82tGBCTHlvvzsJ": [
+      "tableColumnEntities",
+      1743050782916,
+      1743910315261,
+      {
+        "name": 1743050973302,
+        "dataType": 1743050883151,
+        "options(notNull)": 1743050883151,
+        "comment": 1743051202061
+      }
+    ],
+    "pBQvkkSaLw7V3jebqPyd5": [
+      "tableColumnEntities",
+      1743050783318,
+      1743910315454,
+      {
+        "name": 1743050975076,
+        "dataType": 1743050883701,
+        "options(notNull)": 1743050883701,
+        "comment": 1743051205120
+      }
+    ],
+    "ebsninp1WZL912507jhr1": [
+      "tableColumnEntities",
+      1743050783734,
+      1743910315630,
+      {
+        "name": 1743050977158,
+        "dataType": 1743050884145,
+        "options(notNull)": 1743050884145,
+        "comment": 1743051207835
+      }
+    ],
+    "6BMP844CTnbx8xmdlgr9H": [
+      "tableColumnEntities",
+      1743050784136,
+      1743910315839,
+      {
+        "name": 1743050978823,
+        "dataType": 1743050884526,
+        "options(notNull)": 1743050884526,
+        "comment": 1743051210445
+      }
+    ],
+    "U8NUieOmH91pSJG9S89GX": [
+      "tableColumnEntities",
+      1743050784577,
+      1743910316021,
+      {
+        "name": 1743050980359,
+        "dataType": 1743050884938,
+        "options(notNull)": 1743050884938,
+        "comment": 1743051214376
+      }
+    ],
+    "oXFLyuNtrzS8wgBAcSjNx": [
+      "tableColumnEntities",
+      1743050785034,
+      1743910316208,
+      {
+        "name": 1743050981793,
+        "dataType": 1743050885377,
+        "options(notNull)": 1743050885377,
+        "comment": 1743051219241
+      }
+    ],
+    "HbBwhAWiEKnOeUqsOlqQn": [
+      "tableColumnEntities",
+      1743050785473,
+      1743910316397,
+      {
+        "name": 1743050985272,
+        "dataType": 1743050885889,
+        "options(notNull)": 1743050885889,
+        "comment": 1743051221170
+      }
+    ],
+    "Zi1AWpSYY9XWJVqdXVk6b": [
+      "tableColumnEntities",
+      1743050785900,
+      1743910316580,
+      {
+        "name": 1743050987019,
+        "dataType": 1743050886321,
+        "options(notNull)": 1743050886321,
+        "comment": 1743051224004
+      }
+    ],
+    "wJJuqigjzHEtEYszfJHLe": [
+      "tableColumnEntities",
+      1743050786371,
+      1743910316764,
+      {
+        "name": 1743050988861,
+        "dataType": 1743050886767,
+        "options(notNull)": 1743050886767,
+        "comment": 1743051226974
+      }
+    ],
+    "QFojO1EJM193eKFw5J-ur": [
+      "tableColumnEntities",
+      1743050786845,
+      1743910317225,
+      {
+        "name": 1743050991024,
+        "dataType": 1743050887188,
+        "options(notNull)": 1743050887188,
+        "comment": 1743051230305
+      }
+    ],
+    "QVWq2TaoxqUaySGy58ApG": [
+      "tableColumnEntities",
+      1743050787285,
+      -1,
+      {
+        "name": 1743910320311,
+        "dataType": 1743910335937,
+        "options(notNull)": 1743050887623,
+        "comment": 1743910404170
+      }
+    ],
+    "OitI7ahdqwjhb8PPwcdXZ": [
+      "tableColumnEntities",
+      1743050817558,
+      1743051080325,
+      {
+        "name": 1743050888072,
+        "dataType": 1743050888072,
+        "default": 1743050817558,
+        "comment": 1743050888072,
+        "options(notNull)": 1743050888072,
+        "options(unique)": 1743050817558,
+        "options(autoIncrement)": 1743050817558
+      }
+    ]
+  }
+}
