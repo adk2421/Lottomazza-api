@@ -11,9 +11,8 @@ import com.kjis.lottomazza.lotto.entity.LottoGameResult;
  * created on 2025/03/26
  * 
  */
-public interface LottoRepository extends MongoRepository<LottoGameResult, String> {
+public interface LottoGameResultRepository extends MongoRepository<LottoGameResult, String> {
 
-	LottoGameResult findLottoGameResultById(String id);
 	LottoGameResult findLottoGameResultByDrwNo(int drwNo);
 
 }

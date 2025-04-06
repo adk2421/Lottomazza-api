@@ -3,11 +3,16 @@ package com.kjis.lottomazza.lotto.controller;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.kjis.lottomazza.lotto.entity.LottoGameResult;
+import com.kjis.lottomazza.lotto.entity.LottoStat;
 import com.kjis.lottomazza.lotto.service.LottoService;
 
 import lombok.AllArgsConstructor;
+import lombok.extern.slf4j.Slf4j;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
 /**
@@ -17,9 +22,11 @@ import org.springframework.web.bind.annotation.RequestParam;
  * created on 2025/03/26
  * 
  */
+@Slf4j
 @AllArgsConstructor
 @RestController
 public class LottoController {
+	private static final Logger LOG = LoggerFactory.getLogger(LottoController.class);
 
 	private LottoService lottoService;
 
@@ -29,8 +36,8 @@ public class LottoController {
 	 * @return
 	 */
 	@GetMapping("getLottoGameResult")
-	public LottoGameResult getLottoGameResult(@RequestParam int drwNo) {
-		System.out.println("데이터 총 개수 : " + lottoService.getLottoTotalCount());
+	public LottoGameResult getLottoGameResult(@RequestParam(name = "drwNo") int drwNo) {
+		LOG.info("데이터 총 개수 : " + lottoService.getLottoTotalCount());
 
 		LottoGameResult lotto = lottoService.findLottoByDrwNo(drwNo);
 
@@ -41,6 +48,24 @@ public class LottoController {
 		}
 
 		return lotto;
+	}
+	
+	/**
+	 * 로또 통계정보 저장
+	 * @return
+	 */
+	@PostMapping("saveLottoStat")
+	public LottoStat saveLottoStat() {
+		return lottoService.saveLottoStat();
+	}
+
+	/**
+	 * 로또 번호 생성
+	 * @return
+	 */
+	@GetMapping("getGenLottoNum")
+	public int[] getGenLottoNum() {
+		return lottoService.generateLottoNum();
 	}
 	
 }
