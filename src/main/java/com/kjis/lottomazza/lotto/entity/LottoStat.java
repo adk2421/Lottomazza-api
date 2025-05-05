@@ -6,6 +6,13 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+/**
+ * 로또 통계 정보를 담는 Entity
+ * 
+ * @author 김지성
+ * created on 2025/03/26
+ * 
+ */
 @Data
 @NoArgsConstructor
 @AllArgsConstructor

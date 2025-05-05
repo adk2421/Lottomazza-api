@@ -5,7 +5,7 @@ import org.springframework.data.mongodb.repository.MongoRepository;
 import com.kjis.lottomazza.lotto.entity.LottoGameResult;
 
 /**
- * 로또 데이터 접근 Repository
+ * 로또 당첨 데이터 접근 Repository
  * 
  * @author 김지성
  * created on 2025/03/26
