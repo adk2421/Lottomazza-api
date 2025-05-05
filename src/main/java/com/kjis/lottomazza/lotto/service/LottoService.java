@@ -3,8 +3,6 @@ package com.kjis.lottomazza.lotto.service;
 import java.util.Arrays;
 import java.util.Random;
 
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.MediaType;
@@ -33,7 +31,6 @@ import lombok.extern.slf4j.Slf4j;
 @NoArgsConstructor
 @Service
 public class LottoService {
-	private static final Logger LOG = LoggerFactory.getLogger(LottoService.class);
 
 	private Dotenv dotenv = Dotenv.load();
 	
@@ -48,7 +45,7 @@ public class LottoService {
 
 	/**
 	 * 로또 당첨정보 총 개수 조회
-	 * @return
+	 * @return int
 	 */
 	public int getLottoTotalCount() {
 		return (int) lottoGameResultRepository.count();
@@ -57,7 +54,7 @@ public class LottoService {
 	/**
 	 * 추첨회차로 로또 당첨정보 조회
 	 * @param drwNo
-	 * @return
+	 * @return LottoGameResult
 	 */
 	public LottoGameResult findLottoByDrwNo(int drwNo) {
 		return lottoGameResultRepository.findLottoGameResultByDrwNo(drwNo);
@@ -65,13 +62,13 @@ public class LottoService {
 
 	/**
 	 * 로또 당첨정보 저장
-	 * @param drwNo
-	 * @return
+	 * @return LottoGameResult
 	 */
 	@Transactional(timeout = 10)
-	public LottoGameResult saveLotto(int drwNo) {
+	public LottoGameResult saveLotto() {
+		int saveDrwNo = (int) lottoGameResultRepository.count() + 1; // 저장할 회차번호
 		String URL_SUFFIX = dotenv.get("LOTTO_API_GAME_RESULT_PATH_AND_PARAM"); // 로또 API Path 및 Parameter URI
-		String url = URL_SUFFIX + drwNo; // Parameter에 회차번호 붙이기
+		String url = URL_SUFFIX + (saveDrwNo); // Parameter에 회차번호 붙이기
 
 		// 로또 API Reqeust
 		String response = webClient
@@ -92,7 +89,7 @@ public class LottoService {
 				lotto.setId("game_" + lotto.getDrwNo());
 				lottoGameResultRepository.save(lotto);
 
-				LOG.info("[MongoDB Insert Document] lotto_game_result: " + drwNo + "회차 정보 저장");
+				log.info("[MongoDB Insert Document] lotto_game_result: " + saveDrwNo + "회차 정보 저장");
 			}
 			return lotto;
 
@@ -109,28 +106,27 @@ public class LottoService {
 	 */
 	@Transactional(timeout = 10)
 	public LottoStat saveLottoStat() {
-		LottoStat lottoStat = new LottoStat(); // 로또 통계정보를 담을 엔티티
 		int gameTotCnt = (int) lottoGameResultRepository.count(); // 로또 총 추첨횟수
+		LottoStat prevLottoStat = lottoStatRepository.findByDrwNoTotCnt(gameTotCnt - 1); // 이전 로또 통계정보
+		LottoStat lottoStat = new LottoStat(); // 로또 통계정보를 담을 엔티티
 
 		// 로또 번호별 총 당첨횟수 저장
-		int[] drwtCnt = new int[46]; // 로또 번호별 총 당첨횟수 배열
-		for (int i = 1; i <= gameTotCnt; i++) {
-			LottoGameResult lotto = lottoGameResultRepository.findLottoGameResultByDrwNo(i); // 로또 당첨정보
+		int[] drwtCnt = prevLottoStat.getDrwtCnt().clone(); // 로또 번호별 총 당첨횟수 배열
+		LottoGameResult lotto = lottoGameResultRepository.findLottoGameResultByDrwNo(gameTotCnt); // 로또 당첨정보
 
-			drwtCnt[0] += 7;
-			drwtCnt[lotto.getDrwtNo1()]++;
-			drwtCnt[lotto.getDrwtNo2()]++;
-			drwtCnt[lotto.getDrwtNo3()]++;
-			drwtCnt[lotto.getDrwtNo4()]++;
-			drwtCnt[lotto.getDrwtNo5()]++;
-			drwtCnt[lotto.getDrwtNo6()]++;
-			drwtCnt[lotto.getBnusNo()]++;
-		}
+		drwtCnt[0] += 7;
+		drwtCnt[lotto.getDrwtNo1()]++;
+		drwtCnt[lotto.getDrwtNo2()]++;
+		drwtCnt[lotto.getDrwtNo3()]++;
+		drwtCnt[lotto.getDrwtNo4()]++;
+		drwtCnt[lotto.getDrwtNo5()]++;
+		drwtCnt[lotto.getDrwtNo6()]++;
+		drwtCnt[lotto.getBnusNo()]++;
 		
 		// 로또 번호별 당첨비율 저장
 		int drwtTotCnt = drwtCnt[0]; // 저장한 로또 당첨번호 총 개수
 		double[] drwtPct = new double[46]; // 로또 번호별 당첨비율 배열
-		for (int i = 1; i < 45; i++) {
+		for (int i = 1; i <= 45; i++) {
 			drwtPct[i] = (double) drwtCnt[i] / drwtTotCnt; // 로또 번호별 당첨비율
 			drwtPct[0] += drwtPct[i]; // 로또 번호별 당첨비율 총합 값
 		}
@@ -143,7 +139,7 @@ public class LottoService {
 
 		// 로또 통계정보 저장
 		lottoStatRepository.save(lottoStat);
-		LOG.info("[MongoDB Insert Document] lotto_stat: " + gameTotCnt + "건 통계정보 저장");
+		log.info("[MongoDB Insert Document] lotto_stat: " + gameTotCnt + "건 통계정보 저장");
 
 		return lottoStat;
 	}
